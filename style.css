@@ -1,0 +1,66 @@
+body {
+  background: url(texture-noise.png);
+  overflow: hidden;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+div.chart_container{
+    width: 50%;
+    float: left;
+    display: inline;
+
+}
+/* navbar mobile*/
+@media screen and (max-width: 39.9375em) {
+
+  div.chart_container{
+    width: 100%;
+    padding: 5px;
+    float: left;
+    display: inline;
+  }
+
+}
+
+}
+
+h3{
+    width: 100vw;
+    display: block;
+    float: left;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+    font-family: sans-serif;
+}
+textarea{
+    width: 100%;
+
+    z-index: auto;
+    position: relative;
+    line-height: 55px;
+    font-size: 3rem;
+    transition: none;
+    margin: 0px;
+    height: 3rem;
+    resize: none;
+    background-color: transparent !important;
+}
+div.chart_container{
+    cursor: zoom-in;
+}
+div.chart_container.zoom{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    cursor: zoom-out;
+}
+
