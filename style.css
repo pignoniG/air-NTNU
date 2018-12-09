@@ -12,7 +12,7 @@ div.chart_container{
 
 }
 /* navbar mobile*/
-@media screen and (max-width: 39.9375em) {
+@media screen and (max-width: 45em) {
 
   div.chart_container{
     width: 100%;
