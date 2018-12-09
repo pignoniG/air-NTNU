@@ -1,7 +1,7 @@
 body {
   background: url(texture-noise.png);
   overflow: hidden;
-  margin: 0;
+  margin: 8px;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
 }
@@ -33,7 +33,8 @@ h3{
 
 body{
     max-width: 1200px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     font-family: sans-serif;
 }
 textarea{
