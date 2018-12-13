@@ -37,17 +37,17 @@ body{
     font-family: sans-serif;
 }
 textarea{
-    width: 100%;
-
-    z-index: auto;
-    position: relative;
-    line-height: 55px;
-    font-size: 3rem;
-    transition: none;
-    margin: 0px;
-    height: 3rem;
-    resize: none;
-    background-color: transparent !important;
+  width: 100%;
+  z-index: auto;
+  position: relative;
+  line-height: 55px;
+  font-size: 2rem;
+  transition: none;
+  margin: 0px;
+  height: 3rem;
+  overflow: hidden;
+  resize: none;
+  background-color: transparent !important;
 }
 div.chart_container{
     cursor: zoom-in;
