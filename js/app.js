@@ -140,13 +140,15 @@ function updateGraphList(room_list){
             "room_temp_c_list": []                 
         };
         i=0;
+        step = Math.round(duration)
+        if (step <1){step=1};
 
         $.each( room, function( data_point_name,val) {
             var timeX = moment.unix((val["u_time"]));
             //console.log(timeX.format("YYYY-MM-DD"))
             i++;
         
-            if (i==Math.round(duration)) {
+            if (i==) {
                 i=0;
 
                 graph_list[room_name]["room_battery_v_list"].push( {x:timeX,y:val["battery_v"]});
