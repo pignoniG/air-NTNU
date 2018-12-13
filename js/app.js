@@ -140,7 +140,7 @@ function updateGraphList(room_list){
             "room_temp_c_list": []                 
         };
         i=0;
-        step = Math.round(duration)
+        step = Math.round(days)
         if (step <1){step=1};
 
         $.each( room, function( data_point_name,val) {
