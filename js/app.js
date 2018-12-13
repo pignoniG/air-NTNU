@@ -148,7 +148,7 @@ function updateGraphList(room_list){
             //console.log(timeX.format("YYYY-MM-DD"))
             i++;
         
-            if (i==) {
+            if (i==step) {
                 i=0;
 
                 graph_list[room_name]["room_battery_v_list"].push( {x:timeX,y:val["battery_v"]});
